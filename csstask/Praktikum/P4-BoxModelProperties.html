@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model Properties</title>
+
+    <style>
+        /*Margin*/
+        .box {
+            margin: 20px;
+        }
+
+        /*padding*/
+        .box-with-padding {
+            padding: 20px;
+        }
+
+        /*border*/
+        .box-with-border{
+            border: 2px solid black;
+        }
+
+        /*width and hight*/
+        .box-with-dimension{
+            width: 200px;
+            height: 150px;
+        }
+
+        /*box sizing*/
+        .box-with-box-sizing {
+            width: 200px;
+            height: 150px;
+            padding: 10px;
+            border: 2px solid black;
+            box-sizing: border-box;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="box">
+        <p>this is a box with margin</p>
+    </div>
+
+    <div class="box-with-padding">
+        <p>this is a box with padding</p>
+    </div>
+
+    <div class="box-with-border">
+        <p>This is a box with border</p>
+    </div>
+
+    <div class="box-with-dimension">
+        <p>this is a box with heigh and width</p>
+    </div>
+
+    <div class="box-with-box-sizing">
+        <p>this is a box with box-sizing</p>
+    </div>
+</body>
+</html>
